@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+.h2 .search-form,
+.card-land,
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item span {
+  font-weight: bold;
+}
+.country-list {
+  margin-right: 40px;
+  padding: 0;
+  min-width: 200px;
+}
+
+.flag {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.form-input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
